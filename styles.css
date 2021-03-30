@@ -101,7 +101,6 @@ img {
 }
 
 .card-footer {
-    margin-top: 7rem;
     width: 100%;
     border-top: 1px solid hsl(226, 25%, 83%);
     margin-top: 2.5rem;
@@ -116,5 +115,6 @@ img {
 .stats {
     margin-bottom: 2rem;
     text-align: center;
+    align-items: space-between;
 
 }
