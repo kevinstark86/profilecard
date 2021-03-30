@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+section {
+    height: 100vh;
+    background-color:  hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 35rem;
+    background-color: white;
+    border-radius: 2rem;
+    overflow:hidden;
+}
+
+.card-header {
+    height: 17rem;
+    background-image: url('./images/bg-pattern-card.svg');
+    background-size: cover;
+    
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 5px white;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer {
+    display: flex;
+    border-top: 1px hsl(227, 10%, 46%);
+}
