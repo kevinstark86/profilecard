@@ -10,6 +10,49 @@ html {
 
 }
 
+h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin-top: 2.5rem;
+    color: hsl(229, 23%, 23%)
+}
+
+h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: hsl(227, 10%, 46%);
+}
+
+h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin-top: 2.5rem;
+    color: hsl(229, 23%, 23%)
+
+}
+
+h4 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.3rem;
+    color: hsl(227, 10%, 46%);
+}
+
+span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-left: 0.8rem;
+}
+
 body {
     font-size: 1.6rem;
 }
@@ -26,25 +69,28 @@ section {
     width: 35rem;
     background-color: white;
     border-radius: 2rem;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .card-header {
-    height: 17rem;
+    height: 15rem;
     background-image: url('./images/bg-pattern-card.svg');
     background-size: cover;
     
 }
 
-.profile-pic {
-    border-radius: 50%;
-    border: 5px white;
-}
+
 
 .profile-pic img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -5rem;
 }
 
 .card-body {
@@ -56,5 +102,25 @@ section {
 
 .card-footer {
     display: flex;
-    border-top: 1px hsl(227, 10%, 46%);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+    width: 100%;
+    border-top: 1px solid hsl(226, 25%, 83%);
+    margin-top: 2.5rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: space-between;
+    margin: auto 5rem;
+}
+
+
+
+.stats {
+    margin-bottom: 2rem;
+    text-align: center;
+
 }
