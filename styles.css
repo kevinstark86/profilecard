@@ -10,12 +10,14 @@ html {
 
 }
 
+/* Fonts Start */
 h1, p, span {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
 body {
     font-size: 1.6rem;
+    overflow:hidden
 }
 
 
@@ -23,7 +25,7 @@ h1 {
     font-weight: 700;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
     color: hsl(229, 23%, 23%)
 }
 
@@ -36,14 +38,15 @@ span, .location, .label{
     font-weight: 400;
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .stat-numbers {
     font-weight: 700;
     font-size: 1.8rem;
     letter-spacing: 0.2rem;
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
     color: hsl(229, 23%, 23%)
 
 }
@@ -51,33 +54,61 @@ span, .location, .label{
 .label {
     font-weight: 400;
     font-size: 1.1rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
     letter-spacing: 0.3rem;
 }
 
 span {
     font-weight: 400;
-    margin-left: 0.8rem;
+    padding-left: 0.8rem;
 }
 
+/* Fonts End */
 
+/* background start */
 section {
-    height: 100vh;
+    min-height: 100vh;
     background-color:  hsl(185, 75%, 39%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+.circles .c1, 
+.circles .c2 {
+    position: absolute;
+    width: 105rem;
+}
+
+.c1 {
+    top: -58rem;
+    left: -30rem;
+}
+
+.c2 {
+    bottom: -65rem;
+    right: -30rem;
+}
+
+/* background end */
+
+
+/* card start */
 .card {
-    width: 36rem;
+    max-width: 36rem;
     background-color: white;
     border-radius: 2rem;
     overflow: hidden;
+    z-index: 1;
+
 }
 
+
+/* card header start */
+
 .card-header {
-    height: 15rem;
+    min-height: 15rem;
     background-image: url('./images/bg-pattern-card.svg');
     background-size: cover;
     
@@ -87,13 +118,15 @@ section {
     width: 100%;
     height: auto;
     display: block;
-}
-
-img {
     border-radius: 50%;
     border: 5px solid white;
     margin-top: -5rem;
 }
+
+
+/* card header end */
+
+/* card body start */
 
 .card-body {
     display: flex;
@@ -102,10 +135,13 @@ img {
     align-items: center;
 }
 
+/* card body end */
+
+/* card footer start */
+
 .card-footer {
     width: 100%;
     border-top: 1px solid hsl(226, 25%, 83%);
-    margin-top: 2.5rem;
 }
 
 .footer-wrapper {
@@ -126,3 +162,6 @@ img {
     padding-right: 4.8rem;
 }
 
+/* card footer end*
+
+/* card end */
