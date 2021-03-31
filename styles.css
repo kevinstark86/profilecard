@@ -10,29 +10,36 @@ html {
 
 }
 
+h1, p, span {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
 body {
     font-size: 1.6rem;
 }
 
+
 h1 {
-    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     margin-top: 2.5rem;
     color: hsl(229, 23%, 23%)
 }
 
+span, .location, .label{
+    color: hsl(227, 10%, 46%);
+
+}
+
 .location {
-    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    letter-spacing: 0.1rem;
     margin-top: 1rem;
-    color: hsl(227, 10%, 46%);
 }
 
 .stat-numbers {
-    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
     letter-spacing: 0.2rem;
@@ -42,18 +49,14 @@ h1 {
 }
 
 .label {
-    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
     margin-top: 1rem;
     letter-spacing: 0.3rem;
-    color: hsl(227, 10%, 46%);
 }
 
 span {
-    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
-    color: hsl(227, 10%, 46%);
     margin-left: 0.8rem;
 }
 
@@ -67,7 +70,7 @@ section {
 }
 
 .card {
-    width: 35rem;
+    width: 36rem;
     background-color: white;
     border-radius: 2rem;
     overflow: hidden;
@@ -107,13 +110,19 @@ img {
 
 .footer-wrapper {
     display: flex;
-    align-items: space-between;
     margin: auto 5rem;
+    align-items: center;
+    
 }
 
 .stats {
-    margin-bottom: 2rem;
+    padding-bottom: 2.5rem;
     text-align: center;
+    padding-right: 3rem;
 
+}
+
+.center-stat {
+    padding-right: 4.8rem;
 }
 
